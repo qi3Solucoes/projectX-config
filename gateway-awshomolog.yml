@@ -21,7 +21,7 @@ zuul:
     discovery:
       path: /discovery/**
       sensitive-headers: Set-Cookie,Authorization
-      url: http://localhost:8761
+      url: http://ec2-18-228-162-7.sa-east-1.compute.amazonaws.com:8761
       strip-prefix: true
 
 hystrix: 
